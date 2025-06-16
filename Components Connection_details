@@ -1,0 +1,37 @@
+COMPONENTS
+1.Arduino Uno
+2.Breadboard
+3. 2 × Servo Motors
+4.Soil Moisture Sensor
+5.Jumper Wires
+6.USB Cable
+7.Cardboard Bridge Model
+
+CONNECTIONS:
+Connection Details
+1. Servo Motor 1 (Left Motor)
+
+Signal (Orange/Yellow wire) → Arduino Pin 9
+
+VCC (Red wire) → Arduino 5V
+
+GND (Brown/Black wire) → Arduino GND
+
+2. Servo Motor 2 (Right Motor)
+Signal (Orange/Yellow wire) → Arduino Pin 10
+
+VCC (Red wire) → Arduino 5V
+
+GND (Brown/Black wire) → Arduino GND
+
+Tip: If your servo motors draw too much power from Arduino, consider powering them through an external 5V power source and connecting the grounds (GND) together.
+
+3. Soil Moisture Sensor
+
+VCC → Arduino 5V
+
+GND → Arduino GND
+
+Analog Output (AO) → Arduino Analog Pin A0
+
+This sensor reads analog voltage based on soil/water moisture content, which is processed via analogRead(A0) in your code.
